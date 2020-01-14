@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Raleway, sans-serif;
+    font-size: 12px;
+}
+
+#wrapper {
+    padding: 0;
+    width: 1170px;
+    margin: 0 auto;
+}
+#header,
+section,
+foot {
+    wi: 1170px;
+}
+
+#header {
+    width: 100%;
+    height: 600px;
+    background-color: #161616;
+}
+
+#logo {
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    margin-left: 0;
+}
+
+#navbar {
+    height: 96px;
+    display: flex;
+    justify-content: space-around;
+    color:#fff;
+    align-items: center;
+}
+
+#nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    text-transform: uppercase;
+    padding: 0 20px;
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    line-height: 15px;
+}
+
+#adress {
+    font-size: 1.1em;
+}
