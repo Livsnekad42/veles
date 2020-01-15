@@ -149,3 +149,9 @@ header {
     height: 115px;
     display: inline-block;
 }
+
+#warehouse-rent {
+    background-color: #161616;
+    height: 600px;
+    width: 100%;
+}
