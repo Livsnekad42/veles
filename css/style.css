@@ -1,18 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+* {
+    font-size: 12px;
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Raleway, sans-serif;
-    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .wrapper {
     width: 1170px;
     margin: 0 auto;
-}
-header,
-section,
-footer {
-    width: 100%;
 }
 
 header {
@@ -24,6 +24,9 @@ header {
     padding: 10px 20px;
     border: 1px solid #fff;
     margin-left: 0;
+    font-size: 1rem;
+    letter-spacing: 0.22rem;
+    line-height: 1.2rem;
 }
 
 #navbar {
@@ -44,24 +47,25 @@ header {
     text-transform: uppercase;
     padding: 0 20px;
     display: inline-block;
-    font-size: 1.1em;
-    letter-spacing: 0.1em;
-    line-height: 1.25em;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.1rem;
 }
 
 #adress {
-    font-size: 1.1em;
+    font-size: 1.1rem;
 }
 
 #btn {
     width: 215px;
     height: 60px;
     background-color: #FFE500;
-    font-size: 1.5em;
-    line-height: 21px;
-    text-transform: uppercase;
-    font-weight: bold;
     font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.13rem;
+    text-transform: uppercase;
     border: none;
 }
 #hero {
@@ -72,13 +76,12 @@ header {
     width: 525px;
     height: 120px;
     text-transform: uppercase;
-    font-family: Raleway, sans-serif;
-    font-weight: bold;
-    font-size: 27px;
-    line-height: 32px;
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
     margin-top: 140px;
     color: #fff;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.12rem;
 }
 
 #hero img {
@@ -88,7 +91,7 @@ header {
 }
 
 #paginator {
-    font-weight: 18px;
+    font-size: 1.5rem;
     position: absolute;
     top: 389px;
     left: 750px;
@@ -114,12 +117,16 @@ header {
     height: 1860px;
     width: 100%;
     background-color: #f1f2f5;
+    margin-bottom: 100px;
 }
 
 #features h2 {
     margin-top: 215px;
     margin-bottom: 50px;
     text-align: center;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 2.9rem;
 }
 
 #features-grid {
@@ -134,7 +141,9 @@ header {
     margin-bottom: 45px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 30px 80px rgba(0, 0, 0, 0.102355);
+    -webkit-box-shadow: 0px 30px 80px 0px rgba(0,0,0,0.10325);
+    -moz-box-shadow: 0px 30px 80px 0px rgba(0,0,0,0.10325);
+    box-shadow: 0px 30px 80px 0px rgba(0,0,0,0.10325);
 }
 
 .feature-name {
@@ -143,12 +152,64 @@ header {
     padding-top: 30px;
     padding-bottom: 30px;
     margin-top: 0;
-    font-size: 18px;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 600;
     height: 115px;
     display: inline-block;
 }
+
+#advantages {
+    display: flex;
+    flex-direction: column;
+}
+
+#advantages h2 {
+    margin-bottom: 85px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 2.9rem;
+}
+
+#advantages-grid {
+    width: 900px;
+    height: 500px;
+    margin-left: 170px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.advantage {
+    width: 300px;
+    height: 55px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.advantage-number {
+    font-size: 1.7em;
+    line-height: 1.75em;
+    font-weight: 600;
+    width: 50px;
+    height: 50px;
+    background-color: #ffe500;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.advantage p {
+    text-align: left;
+    font-size: 1.33rem;
+    line-height: 1.55rem;
+    font-weight: 600;
+    white-space: pre-line;
+    margin-left: 30px;
+}
+
+
 
 #warehouse-rent {
     background-color: #161616;
