@@ -209,7 +209,19 @@ header {
     margin-left: 30px;
 }
 
+#map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+#map-heading {
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 2.9rem;
+    text-align: center;
+}
 
 #warehouse-rent {
     background-color: #161616;
