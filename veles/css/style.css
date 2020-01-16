@@ -214,6 +214,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 190px;
 }
 
 #map-heading {
@@ -221,6 +222,75 @@ header {
     font-size: 2.5rem;
     line-height: 2.9rem;
     text-align: center;
+    margin-bottom: 45px;
+}
+
+#land-rent {
+    margin-bottom: 190px;
+    height: 488px;
+}
+
+#land-rent .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#land-rent-desc {
+    display: flex;
+    flex-direction: column;
+    margin-top: 160px;
+    margin-bottom: 90px;
+    margin-right: 100px;
+}
+
+#land-rent h2 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+#land-rent p {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    text-align-last: left;
+    display: block;
+    width: 430px;
+    white-space: pre-line;
+    margin-bottom: 40px;
+}
+
+#land-rent span {
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #161616;
+    width: 277px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#land-rent-pic {
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 0;
+}
+
+#land-rent-pic::after {
+    content: '';
+    position: relative;
+    background-color: #f1f2f5;
+    width: 547px;
+    height: 487px;
+    bottom:67px;
+    right:630px;
+    z-index: -1;
 }
 
 #warehouse-rent {
