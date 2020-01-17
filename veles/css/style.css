@@ -235,7 +235,7 @@ header {
     justify-content: space-between;
 }
 
-#land-rent-desc {
+.rent-desc {
     display: flex;
     flex-direction: column;
     margin-top: 160px;
@@ -243,7 +243,7 @@ header {
     margin-right: 100px;
 }
 
-#land-rent h2 {
+.rent-desc h2 {
     font-weight: bold;
     font-size: 30px;
     line-height: 35px;
@@ -253,7 +253,7 @@ header {
     margin-bottom: 25px;
 }
 
-#land-rent p {
+.rent-desc p {
     font-size: 1.25rem;
     line-height: 1.5rem;
     text-align-last: left;
@@ -263,7 +263,7 @@ header {
     margin-bottom: 40px;
 }
 
-#land-rent span {
+.rent-desc span {
     line-height: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
