@@ -2,6 +2,7 @@
 
 * {
     font-size: 12px;
+    box-sizing: border-box;
 }
 
 body {
@@ -20,7 +21,7 @@ header {
     background-color: #161616;
 }
 
-#logo {
+.logo {
     padding: 10px 20px;
     border: 1px solid #fff;
     margin-left: 0;
@@ -29,7 +30,7 @@ header {
     line-height: 1.2rem;
 }
 
-#navbar {
+.navbar {
     height: 96px;
     display: flex;
     justify-content: space-around;
@@ -37,7 +38,7 @@ header {
     align-items: center;
 }
 
-#nav-list {
+.nav-list {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -52,7 +53,7 @@ header {
     letter-spacing: 0.1rem;
 }
 
-#adress {
+.adress {
     font-size: 1.1rem;
 }
 
@@ -230,7 +231,8 @@ header {
     height: 488px;
 }
 
-#land-rent .wrapper {
+#land-rent .wrapper,
+#warehouse-rent .wrapper     {
     display: flex;
     justify-content: space-between;
 }
@@ -297,4 +299,81 @@ header {
     background-color: #161616;
     height: 600px;
     width: 100%;
+    color: #fff;
+}
+
+#warehouse-rent .rent-desc {
+    margin-top: 205px;
+    margin-bottom: 105px;
+}
+
+#warehouse-rent p {
+    width: 493px;
+}
+
+#warehouse-rent span {
+   border: 1px solid #fff;
+}
+
+#warehouse-rent-pic {
+    position: relative;
+    bottom: -100px;
+    right: -14px;
+}
+
+#offer-form {
+    height: 452px;
+}
+
+#offer-form .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 705px;
+    margin-top: 200px;
+}
+
+#offer-form p {
+    font-weight: bold;
+    font-size: 2.1rem;
+    line-height: 2.45rem;
+    text-align: center;
+    letter-spacing: 0.13rem;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+#offer-form form {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#offer-form input {
+    width: 250px;
+    height: 55px;
+    padding-left: 20px;
+    background-color: #eff0f1;
+    border:none;
+}
+
+#offer-form input[type="tel"] {
+   margin-left: 15px;
+   margin-right: 15px;
+}
+
+#offer-form input[type="button"] {
+    width: 170px;
+    height: 50px;
+    background-color: #161616;
+    color: #fff;
+    border: none;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+#footer {
+    background-color: #161616;
+    height: 133px;
+    padding-top: 18px;
 }
