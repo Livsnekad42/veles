@@ -21,6 +21,11 @@ header {
     background-color: #161616;
 }
 
+header .wrapper {
+position: relative;
+height: 100%;
+}
+
 .logo {
     padding: 10px 20px;
     border: 1px solid #fff;
@@ -57,7 +62,7 @@ header {
     font-size: 1.1rem;
 }
 
-#btn {
+#header-btn {
     width: 215px;
     height: 60px;
     background-color: #FFE500;
@@ -69,11 +74,8 @@ header {
     text-transform: uppercase;
     border: none;
 }
-#hero {
-    margin-bottom: 130px;
-}
 
-#hero p {
+#header-heading  {
     width: 525px;
     height: 120px;
     text-transform: uppercase;
@@ -85,18 +87,19 @@ header {
     letter-spacing: 0.12rem;
 }
 
-#hero img {
+#header-pic {
     position: absolute;
-    top: 178px;
-    right: 0;
+    bottom: -89px;
+    right: -362px;
 }
 
 #paginator {
     font-size: 1.5rem;
     position: absolute;
-    top: 389px;
-    left: 750px;
+    bottom: 29px;
+    left: 431px;
     z-index: 99;
+    color:#fff;
 }
 
 #paginator::before {
@@ -164,15 +167,33 @@ header {
     height: 115px;
     display: inline-block;
 }
+.yellow-pic,
+#watch-map {
+    position: relative;
+}
 
 .yellow-pic::before {
-content: "";
-background-color: red;
+content: '';
+background-image: url("/veles/veles/image/yellow-pin.png");
 z-index: 9999;
 position: absolute;
 top:0;
 left: 0;
-width: 100px;
+width: 57px;
+height: 54px;
+cursor: pointer;
+}
+
+#watch-map::before {
+content: '';
+background-image: url("/veles/veles/image/watch-map.png");
+z-index: 9999;
+position: absolute;
+top:0;
+left: 0;
+width: 316px;
+height: 54px;
+cursor: pointer;
 }
 
 #advantages {
