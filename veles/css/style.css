@@ -161,6 +161,7 @@ height: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-top: 0;
+    margin-bottom: 0;
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 600;
@@ -174,7 +175,7 @@ height: 100%;
 
 .yellow-pic::before {
 content: '';
-background-image: url("/veles/veles/image/yellow-pin.png");
+background-image: url("/veles/image/yellow-pin.png");
 z-index: 9999;
 position: absolute;
 top:0;
@@ -186,7 +187,7 @@ cursor: pointer;
 
 #watch-map::before {
 content: '';
-background-image: url("/veles/veles/image/watch-map.png");
+background-image: url("/veles/image/watch-map.png");
 z-index: 9999;
 position: absolute;
 top:0;
@@ -413,4 +414,20 @@ cursor: pointer;
     background-color: #161616;
     height: 133px;
     padding-top: 18px;
+}
+
+@media (max-width: 1200px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    #features {
+        flex-direction: column;
+    }
+    #features-grid {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .feature {
+    }
 }
